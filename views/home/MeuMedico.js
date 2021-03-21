@@ -30,7 +30,7 @@ export const MeuMedico = () => {
                             <View style={{ height: RFValue(100), width: RFValue(100), borderRadius: RFPercentage(100), backgroundColor: "white" }}>
                             </View>
                             <Text style={{ color: "white", fontSize: RFValue(15), fontWeight: "bold" }}>
-                                Dona Maria
+                                Dr. Ana Paula
                         </Text>
                         </View>
                     </View>

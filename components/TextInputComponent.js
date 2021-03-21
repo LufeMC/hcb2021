@@ -9,7 +9,7 @@ let notPressed;
 export const TextInputComponent = (props) => {
     const inputProps = {
         style: [styles.input, props.inputStyle],
-        onChangeText: (text) => props.onChangeText(text),
+        onChangeText: (text) => (props.onChangeText && props.onChangeText !== null ? props.onChangeText(text) : {}),
         placeholder: props.placeholder,
         keyboardType: props.keyboardType,
         secureTextEntry: props.secureTextEntry

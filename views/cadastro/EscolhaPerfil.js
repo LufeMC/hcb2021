@@ -13,14 +13,14 @@ export const EscolhaPerfil = () => {
                     <Text style={styles.subTitle}>Como podemos ajudar?</Text>
                 </View>
                 <View style={{ flex: 4, width: "80%", display: "flex", justifyContent: "center", alignItems: "center", alignContent: "center", flexDirection: "column" }}>
-                    <Link to="/cadastro/3">
+                    <Link to="/cadastro/3" style = {{width: "80%"}}>
                         <View style={styles.profile}>
                             <View style={styles.profilePhoto}>
                             </View>
                             <Text style={styles.profileTitle}>Sou Médico</Text>
                         </View>
                     </Link>
-                    <Link to="/cadastro/2">
+                    <Link to="/cadastro/2" style = {{width: "80%"}}>
                         <View style={styles.profile}>
                             <View style={styles.profilePhoto}>
                             </View>

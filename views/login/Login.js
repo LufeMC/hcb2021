@@ -55,6 +55,9 @@ export const Login = (props) => {
     return (
         <View style={styles.mainContainer}>
             <View style={styles.container}>
+                <Text style = {{color: "white", fontSize: RFValue(70), marginBottom: RFValue(40)}}>
+                    SANA
+                </Text>
                 <TextInputComponent childrenBefore={<Text style={styles.inputTitle}>CPF</Text>} inputStyle={styles.inputStyle} placeholder="CPF" keyboardType="numeric" onChangeText={setLogin} style={{ width: "80%" }} secureTextEntry={false} />
                 <TextInputComponent childrenBefore={<Text style={styles.inputTitle}>Senha</Text>} childrenAfter={<Text style={styles.esqueciSenha}>Esqueci minha senha</Text>} inputStyle={styles.inputStyle} placeholder="Senha" keyboardType="numeric" onChangeText={setSenha} style={{ width: "80%" }} secureTextEntry={true} />
                 <View style={{ width: "80%", display: "flex", flexDirection: "row", justifyContent: "space-between", alignContent: "center", alignItems: "center" }}>
