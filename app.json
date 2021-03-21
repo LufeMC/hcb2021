@@ -1,0 +1,12 @@
+{
+  "name": "hcb2021",
+  "displayName": "hcb2021",
+  "expo": {
+    "name": "hcb2021",
+    "slug": "hcb2021",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
